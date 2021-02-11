@@ -1,12 +1,12 @@
-DEBUG = True
+EBUG = True
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
-        'USER': 'postres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'USER': 'postgres',
+	'PASSWORD':'postgres',
+        'HOST': 'db',
         'PORT': 5432,
     
     }
